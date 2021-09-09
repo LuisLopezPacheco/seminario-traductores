@@ -1,0 +1,32 @@
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.csproj.AssemblyReference.cache
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.AssemblyInfoInputs.cache
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.AssemblyInfo.cs
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.csproj.CoreCompileInputs.cache
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.exe
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.deps.json
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.runtimeconfig.json
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.runtimeconfig.dev.json
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.dll
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\ref\Analizador_sintactico_LR_1.dll
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.pdb
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.dll
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\ref\Analizador_sintactico_LR_1.dll
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.pdb
+D:\Carpetas del sistema\Escritorio\Sem. Traductores 2\Actividades\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.genruntimeconfig.cache
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.exe
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.deps.json
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.runtimeconfig.json
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.runtimeconfig.dev.json
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.dll
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\ref\Analizador_sintactico_LR_1.dll
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\bin\Debug\net5.0\Analizador_sintactico_LR_1.pdb
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.csproj.AssemblyReference.cache
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.AssemblyInfoInputs.cache
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.AssemblyInfo.cs
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.dll
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\ref\Analizador_sintactico_LR_1.dll
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.pdb
+C:\Users\josue\Desktop\Analizador_sintactico_LR_1\obj\Debug\net5.0\Analizador_sintactico_LR_1.genruntimeconfig.cache
