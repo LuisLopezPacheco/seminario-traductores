@@ -1,5 +1,5 @@
 # seminario-traductores
-compilador en C#
-Introducción.
+<h4>compilador en C#</h4>
+
 Antes de empezar quiero aclarar ue cambie de lenguaje de Java a C# ya que hubo muchas cosas que no entendia de java lo cual me hizo retonar conocimientos que tenia de c# lo que se plantea en la actividad es que realice los programas que tenia en java a c# despues realice los cambios pertienentes al momento de almacenar las cosas luego se realizaron unos cambios a la implementación principal del programa que es el de lexico, ya que anteriormente no se comunicaban las clases Léxico y Sintáctico, pero ahora Sintáctico hereda los atributos de la clase Léxico y esto permite tener que utilizar menos listas que almacenan los tokens de la cadena de entrada a analizar, ya que anteriormente la implementación usaba 3 listas adicionales, pero con estos cambios solo se utiliza una (por el momento) que almacena los tokens producidos por la cadena de entrada. De momento esta actividad no se complicó mucho ya que las particularidades del lenguaje C# me ayudo bastante, pero leyendo los requerimientos para la siguiente actividad tendré que investigar más información de cómo realizar varias partes.
 
