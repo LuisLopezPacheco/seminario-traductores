@@ -1,0 +1,48 @@
+
+LOG START
+   20:37:24  version 20180809-w32
+   20:37:24  Application::OnInit
+   20:37:24     cwd=C:\Users\dagur\Desktop\pseint
+   20:37:24     argc: 3
+   20:37:24        argv[0]: wxPSeInt
+   20:37:24        argv[1]: --logger
+   20:37:24        argv[2]: C:\Users\dagur\Desktop\pseint-log.txt
+   20:37:24  LangSettings::Load perfiles\Flexible
+   20:37:24  Profile: 20180809 00011101111101001110
+   20:37:24  Logger::DumpVersions
+   20:37:24     pseint: PSeInt 20180424-w32
+   20:37:25     psterm: psTerm 20180130-w32
+   20:37:26     psdraw3: psDraw3 20180321-w32
+   20:37:26     psdrawe: psDrawE 20180312-w32
+   20:37:27     psexport: psExport 20180802-w32
+   20:37:27  ConfigManager
+   20:37:27     cwd=C:\Users\dagur\Desktop\pseint
+   20:37:27     filename=config.here
+   20:37:27     profile=Flexible
+   20:37:27     pseint_dir=C:\Users\dagur\Desktop\pseint\
+   20:37:27     home_dir=C:\Users\dagur\pseint
+   20:37:27     psdraw3_command=psdraw3.exe
+   20:37:27     psdrawe_command=psdrawE.exe
+   20:37:27     pseint_command=pseint.exe
+   20:37:27     pseval_command=pseval.exe
+   20:37:27     psexport_command=psexport.exe
+   20:37:27     psterm_command=psterm.exe
+   20:37:27     tty_command=
+   20:37:27     temp_dir=temp
+   20:37:30  mxMainWindow::OnActivated
+   20:37:31  mxSource::mxSource 14516048
+   20:37:31  mxMainWindow::OnKillFocus
+   20:37:31  mxSource::SetFocus 14516048
+   20:37:32  mxSource::OnTimes(flow) 14516048
+   20:37:32  mxUpdatesChecker::mxUpdatesChecker show=false
+   20:37:32  mxUpdatesChecker::CheckNow updatem.exe --child "temp\updatem.res" pseint 
+   20:37:32  CommunicationsManager::CommunicationsManager in -1
+   20:37:32  CommunicationsManager::CommunicationsManager out port=55579  server=14869000
+   20:37:32  mxSource::OnTimes(rt) 14516048
+   20:37:33  mxMainWindow::OnDeactivated
+   20:37:35  mxSource::OnTimes(reload) 14516048
+   20:38:55  mxMainWindow::OnActivated
+   20:38:56  mxSource::~mxSource 14516048
+   20:38:56  RTSyntaxManager::Stop
+LOG END
+
