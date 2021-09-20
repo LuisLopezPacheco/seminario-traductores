@@ -1,1 +1,4 @@
-
+<h2>Gramatica del compilador</h2>
+lo que se realiza dentro de esta actividad es un arbol en el cual se van identificando ciertas gramaticas ya predichas por una tabla que nos paso el profesor 
+lo interesante de esta practica es como funciona la estructura de datos pila la cual nos permite realizar desde añadir y extraer ciertos elementos
+lo importante dentro de esta actividad es al momento de analizar los datos ya que por medio de ciertos calculos y ver como van declarada las reglas,reducciones,filas y columnas nos permite un mejor funcionamiento para lo cual nos apoyamos de los nodos de la estructurallamada arbol
