@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1633484810 source:c:\users\josue\desktop\arbolsintactico\src\arbolsintactico.cpp
+	"arbolsintactico.h"
+
+1633485156 c:\users\josue\desktop\arbolsintactico\include\arbolsintactico.h
+	<string>
+	<iostream>
+	"tablaSimbolos.h"
+
+1633484942 c:\users\josue\desktop\arbolsintactico\include\tablasimbolos.h
+	<list>
+	<iostream>
+	<string>
+	<arbolsintactico.h>
+
+1633484817 source:c:\users\josue\desktop\arbolsintactico\src\semantico.cpp
+	"semantico.h"
+
+1633484843 c:\users\josue\desktop\arbolsintactico\include\semantico.h
+	"arbolSintactico.h"
+	"tablaSimbolos.h"
+
+1633484907 source:c:\users\josue\desktop\arbolsintactico\src\tablasimbolos.cpp
+	"tablaSimbolos.h"
+
