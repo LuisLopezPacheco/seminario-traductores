@@ -1,0 +1,25 @@
+--------------- CADENA LEXICO --------------------------
+int static a b c d e 
+1 2 3 4 5 6 7 8 > <
+= - . ;
+
+
+
+-----------------CADENA DE IF -------------------------
+
+if ( Hola > 20) {
+int a = 1;
+}else{
+int b=2;
+}
+
+-----------------CADENA DE WHILE ----------------------
+
+while ( prueba > 20) {                        
+int c = 1;
+}
+
+----------------CADENA FOR ----------------------------
+for (int i = 1; i < 10; i++) {
+String letrita;        
+}
