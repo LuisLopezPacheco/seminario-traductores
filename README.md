@@ -5,3 +5,6 @@ El Análisis Léxico es la primera fase de un compilador y consiste en un progra
 
 <h2> Que es un analizador Sintactico</h2>
 El análisis sintáctico es el análisis de las funciones sintácticas o relaciones de concordancia y jerarquía que guardan las palabras cuando se agrupan entre sí en forma de sintagmas, oraciones simples y oraciones compuestas de proposiciones.
+
+<h2> Que es un analizador Semantico</h2>
+el análisis semántico es el proceso de relacionar estructuras sintácticas , desde los niveles de frases , cláusulas , oraciones y párrafos hasta el nivel de la escritura en su conjunto, hasta sus significados independientes del lenguaje . También implica eliminar características específicas de contextos lingüísticos y culturales particulares, en la medida en que tal proyecto sea posible.
