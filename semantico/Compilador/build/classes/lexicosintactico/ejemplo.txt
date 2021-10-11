@@ -1,0 +1,18 @@
+Contador BEGIN{
+TAKE A,B,C;
+NUM Ad;
+NUM Bd;
+NUM C=0;
+
+SEND(#Leer A"#);
+Ad=A;
+SEND(#Leer B#);
+Bd=B;
+
+START A STEP 1 TO B{
+C=B-A;
+
+STOP}
+SEND (#El Resultado es#+C);
+
+END}

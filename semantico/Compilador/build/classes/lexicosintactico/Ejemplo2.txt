@@ -1,0 +1,24 @@
+PositivosyNegativos BEGIN{
+NUM P=0;
+NUM N=0;
+NUM NU;
+TAKE NUMERO
+
+SEND("Ingresa un Numero");
+NU=NUMERO;
+
+
+WHEN IT TRUE BEGIN{
+IT IS NUM>0 {
+P=P+1;
+}
+IT IS NUM<0{
+N=N+1;
+}
+NUM=0;
+ END}
+
+SEND("Total Positivos",P
+      "Total Negativos",N);
+
+END}

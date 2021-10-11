@@ -1,0 +1,44 @@
+Promedio BEGIN{
+DNUM numero,continuar,contador,menor,mayor,promedio,total;
+continuar=1;
+contador=1;
+SEND(#   Programa hecho por Luis Fernando Martínez Martínez   #);
+SEND(#   Programa para calcular el promedio, mayor y menor de N datos   #);
+TAKE (#Introduce un numero:  #+numero);
+IT(numero=0){
+continuar=2;
+COMPLETE}
+menor=numero;
+mayor=numero;
+promedio=numero;
+IT(continuar<2){
+TAKE (# Quieres ingresar otro 1-Si   2-No  #+continuar);
+WHEN( continuar=1){
+
+TAKE(#Introduce un numero: #+numero);
+IT(numero=0){
+continuar=2;
+COMPLETE}
+promedio=numero+promedio;
+total=promedio;
+IT(numero<menor){
+menor=numero;
+COMPLETE}
+IT(numero>mayor){
+mayor=numero;
+COMPLETE}
+contador=contador+1;
+IT(continuar<2){
+TAKE (# Quieres ingresar otro 1-Si   2-No  #+continuar);
+COMPLETE}
+SWHEN}
+
+COMPLETE}
+promedio=promedio/contador;
+SEND(#El  ingresaste:  #+contador+ #datos#);
+SEND(#El dato mayor es:  #+mayor);
+SEND(#El dato menor es:  #+menor);
+SEND(#El promedio es:  #+promedio);
+SEND(#El total es:  #+total);
+SEND(#   Fecha 24 de Noviembre de 2016  #);
+END}

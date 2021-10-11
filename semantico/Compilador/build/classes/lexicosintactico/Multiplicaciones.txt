@@ -1,0 +1,23 @@
+Tablas BEGIN{
+
+NUM a,resultado, i;
+
+SEND( # Programa para calcular tablas de multiplicar#);
+TAKE( #Ingrese un numero:# +a);
+
+START i=1 STEP 1 TO 10{
+resultado=a*i;
+
+SEND(##+a+#X#+i+#=#+resultado);
+
+
+STOP}
+
+
+
+
+
+
+
+
+END}

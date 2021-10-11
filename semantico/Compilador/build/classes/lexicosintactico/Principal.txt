@@ -1,0 +1,9 @@
+NombredePrograma BEGIN{
+
+     
+
+
+
+
+
+END}

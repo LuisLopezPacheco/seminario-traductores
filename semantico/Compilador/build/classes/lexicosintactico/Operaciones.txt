@@ -1,0 +1,21 @@
+Operaciones BEGIN{
+TAKE a,b;
+NUM a1,b1;
+DNUM suma,resta,multiplicacion,division;
+SEND(#Ingresa el primer numero#);
+a1=a;
+SEND(#Ingresa el segundo numero#);
+b1=b;
+suma=a1+b1;
+SEND(#La suma es#+suma);
+resta=a1-b1;
+SEND(#La resta es#+resta);
+multiplicacion=a1*b1;
+SEND(#La multiplicacion es#+multiplicacion);
+division=a1/b1;
+SEND(#La division es#+division);
+
+
+
+
+END}

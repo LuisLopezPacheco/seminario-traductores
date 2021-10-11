@@ -1,0 +1,15 @@
+Menu BEGIN{
+NUM op;
+SEND(#Menu Cafeteria Ingrese una Opcion 1-Cafe Capuchino, 2-Cafe Expreso#);
+TAKE (#Ingrese una opcion: #+op);
+IT(op=1){
+SEND(#Ha seleccionado Cafe Capuchino#);
+
+COMPLETE}
+IT(op=2){
+SEND(#Ha seleccionado Cafe Expreso#);
+
+COMPLETE}
+
+
+END}

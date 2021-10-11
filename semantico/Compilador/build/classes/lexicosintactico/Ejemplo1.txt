@@ -1,0 +1,38 @@
+Facturar BEGIN{
+NUM i,no;
+DNUM cantidad, costo, total, opc, acumulador, paga, des;
+WORD articulo;
+opc=1;
+i=0;
+no=1;
+WHEN (opc<2){
+SEND (#Abarrotes el pancho#);
+SEND(#Dame el articulo: #+no);
+TAKE (articulo);
+TAKE (#¿Cuantos compraste? #+cantidad);
+TAKE (#¿Cuanto cuesta? #+costo);
+
+total=cantidad*costo;
+acumulador=acumulador+total;
+
+IT(acumulador>100){
+des=acumulador/10;
+paga=acumulador-des;
+COMPLETE}
+IT(acumulador<100){
+paga=acumulador;
+
+COMPLETE}
+SEND(# De eso serian #+total);
+i=i+1;
+no=no+1;
+TAKE (#¿Quieres otro?  1-Si  2-No #+opc);
+SEND (#Candidad: #+acumulador);
+SEND (#Descuento:  #+des);
+SEND (#Compraste#+i, #Articulos y debes pagar  #+paga);
+
+
+
+SWHEN}
+
+END}

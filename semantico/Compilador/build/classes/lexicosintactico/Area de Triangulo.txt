@@ -1,0 +1,16 @@
+AreaTriangulo BEGIN{
+TAKE b;
+NUM base;
+SEND (#Introduzca la base#);
+base=b;
+
+TAKE a;
+NUM altura;
+SEND (#Introduzca la Altura#);
+altura=a;
+
+DNUM Area=base*altura;
+
+SEND(#El area es#+Area);
+
+END}

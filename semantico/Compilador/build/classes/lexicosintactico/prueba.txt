@@ -1,0 +1,13 @@
+TablasdeMultiplicar BEGIN{
+
+NUM b;
+
+TAKE (#Dame un Número#+n);
+
+
+START i STEP 1 TO 10{
+
+TAKE (#Pa que se vea que funciona#);
+
+STOP}
+END}

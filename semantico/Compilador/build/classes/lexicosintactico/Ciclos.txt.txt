@@ -1,0 +1,41 @@
+DosNumeros BEGIN{
+
+DNUM primero,segundo, resultado;
+NUM verifica;
+
+SEND(#  Programa que calcula Divisiones  #);
+WHEN (verifica<2){
+TAKE(#Dame el primer numero: #+primero);
+TAKE(#Dame el segundo numero: #+segundo);
+resultado=primero/segundo;
+
+IT(primero=0){
+verifica=verifica+1;
+IT(segundo=0){
+verifica=verifica+1;
+SEND(#No puedo dividir entre 0#);
+COMPLETE}
+COMPLETE}
+
+IT(segundo>0){
+SEND(#El Resultado es: #+resultado);
+
+COMPLETE}
+
+IT(segundo<0){
+SEND(#El Resultado es: #+resultado);
+
+COMPLETE}
+
+IT(segundo=0){
+SEND(#No puedo dividir entre 0#);
+
+COMPLETE}
+SEND (# Ya acabe#);
+SWHEN}
+
+
+
+
+
+END}

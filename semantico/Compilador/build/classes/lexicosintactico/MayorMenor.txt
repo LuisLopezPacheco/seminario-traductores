@@ -1,0 +1,37 @@
+PromedioNumero BEGIN{
+DNUM n;
+DNUM num, total,promedio;
+DNUM mayor;
+DNUM menor;
+
+DNUM entra;
+
+
+SEND (#   Programa que calcula el promedio de numeros  #);
+WHEN( entra<1){
+TAKE (#Cuantos numeros vas a ingresar:  #+n);
+START i=1 STEP 1 TO n{
+SEND (#Dame el numero :  #+i);
+TAKE (num);
+IT(num=0){
+entra=1;
+COMPLETE}
+mayor=num;
+menor=num;
+IT(num>mayor){
+mayor=num;
+COMPLETE}
+IT(num<mayor){
+menor=num;
+COMPLETE}
+total=total+num;
+promedio=total/n;
+STOP}
+SEND( #El promedio fue: #+promedio);
+SEND(#El mayor es: #+mayor);
+SEND (#El menor es: #+menor);
+total=0;
+promedio=0;
+SWHEN}
+
+END}
