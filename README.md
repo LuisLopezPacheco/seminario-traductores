@@ -5,3 +5,15 @@ El Análisis Léxico es la primera fase de un compilador y consiste en un progra
 
 <h2> Que es un analizador Sintactico</h2>
 El análisis sintáctico es el análisis de las funciones sintácticas o relaciones de concordancia y jerarquía que guardan las palabras cuando se agrupan entre sí en forma de sintagmas, oraciones simples y oraciones compuestas de proposiciones.
+
+
+Las tareas de la materia son:
+
+Tarea 1: Mini analizador léxico.
+Tarea 2: Analizador léxico.
+Tarea 3: Mini analizador sintáctico.
+Tarea 4: Analizador sintáctico (Implementación usando objetos).
+Tarea 5: Gramática del compilador.
+Tarea 6: Analizador semántico.
+
+Cada tarea representa un pequeño avance hacia el proyecto.
