@@ -1,0 +1,30 @@
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\bin\Debug\analizadorLexico.exe.config
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\bin\Debug\analizadorLexico.exe
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\bin\Debug\analizadorLexico.pdb
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.csprojAssemblyReference.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.Principal.resources
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.Properties.Resources.resources
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.csproj.GenerateResource.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.csproj.CoreCompileInputs.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.exe
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\analizadorLexico\analizadorLexico\obj\Debug\analizadorLexico.pdb
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\bin\Debug\analizadorLexico.exe.config
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\bin\Debug\analizadorLexico.exe
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\bin\Debug\analizadorLexico.pdb
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.csprojAssemblyReference.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.Principal.resources
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.Properties.Resources.resources
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.csproj.GenerateResource.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.csproj.CoreCompileInputs.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.exe
+D:\Practicas\Cosas de C#\Actividades TL II\Mini Analizador Lexico\Tarea 1\analizadorLexico\obj\Debug\analizadorLexico.pdb
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\bin\Debug\analizadorLexico.exe.config
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\bin\Debug\analizadorLexico.exe
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\bin\Debug\analizadorLexico.pdb
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.csprojAssemblyReference.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.Principal.resources
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.Properties.Resources.resources
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.csproj.GenerateResource.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.csproj.CoreCompileInputs.cache
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.exe
+D:\Practicas\Cosas de C#\Actividades TL II\Analizador Lexico\Tarea 2\analizadorLexico\obj\Debug\analizadorLexico.pdb
