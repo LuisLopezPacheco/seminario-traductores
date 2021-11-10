@@ -1,0 +1,289 @@
+package Compilador;
+
+import java_cup.runtime.Symbol;
+
+parser code
+{:
+    
+    private Symbol s;
+    
+    public void syntax_error(Symbol s){
+        this.s = s;
+    }
+
+    public Symbol getS(){
+        return this.s;
+}
+:};
+
+terminal Linea, T_datos, Int, Igual, Suma, Resta, Multiplicacion, 
+    Division, Parentesis_a, Parentesis_c, Llave_a, Llave_c, Main, 
+    Print, P_coma, Identificador, Numero, End, Escribir, Leer,
+    Estructuras_control, Estructuras_iteracion, Mod, Corchete_a,
+    Corchete_c, Punto, Entrada, Salida, Librerias, Comillas,
+    D_puntos, Asm, AX, CX, BX, DX, Diferente,
+    ERROR;
+non terminal INICIO, LIBRERIA, GLOBALES, VARIABLES, SALIDA, ENTRADA, MENSAJE, ENSAMBLADOR, CONTROL, OPERACION,
+               MAIN, DECREMENTAR, A_FUNCION, FUNCION, C_FUNCION, A_DOWHILE, C_DOWHILE, SENTENCIA, A_SWITCH, D_SWITCH ,CASE, END;
+
+start with INICIO;
+
+INICIO ::=
+    LIBRERIA
+    GLOBALES
+
+    A_FUNCION
+    FUNCION
+    C_FUNCION
+
+    A_FUNCION
+    FUNCION
+    C_FUNCION
+
+    A_FUNCION
+    FUNCION
+    C_FUNCION
+
+    A_FUNCION
+    FUNCION
+    C_FUNCION
+
+    A_FUNCION
+    FUNCION
+    C_FUNCION
+
+    A_FUNCION
+    FUNCION
+    C_FUNCION
+
+    MAIN
+    A_DOWHILE
+        SENTENCIA
+        A_SWITCH
+        CASE
+        CASE
+        CASE
+        CASE
+        CASE
+        CASE
+        D_SWITCH
+    C_DOWHILE
+    
+    END |
+     
+        A_SWITCH
+        CASE
+        CASE
+        CASE
+        CASE
+        CASE
+        CASE
+        D_SWITCH
+;
+
+LIBRERIA ::=
+    Librerias
+    Identificador Identificador Identificador P_coma
+;
+
+A_FUNCION::=
+    T_datos Identificador Parentesis_a Parentesis_c Llave_a|
+    T_datos Identificador Parentesis_a T_datos Identificador T_datos Identificador  Parentesis_c Llave_a
+
+;
+
+FUNCION::=
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    SALIDA|
+
+    DECREMENTAR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    SALIDA|
+    
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    
+    ENSAMBLADOR
+    ENSAMBLADOR
+    
+    ENSAMBLADOR
+    ENSAMBLADOR
+    SALIDA|
+    
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    ENSAMBLADOR
+    SALIDA
+    
+    
+;
+
+C_FUNCION::=
+    Llave_c | 
+    Identificador Numero P_coma Llave_c|
+    Identificador Identificador P_coma Llave_c
+;
+
+DECREMENTAR::=
+    Identificador Resta Resta P_coma
+;
+
+GLOBALES ::=
+    T_datos Identificador Igual Numero P_coma |
+    T_datos Identificador P_coma |
+    T_datos Identificador Identificador P_coma |
+    T_datos Identificador Identificador Identificador P_coma|
+    T_datos Identificador Identificador Identificador Identificador P_coma |
+    T_datos Identificador Identificador Identificador Identificador Identificador P_coma 
+;
+
+MAIN ::=
+    T_datos Main Parentesis_a Parentesis_c Llave_a
+    | Main Parentesis_a Parentesis_c Llave_a
+;
+
+A_DOWHILE::=
+    Estructuras_iteracion Llave_a
+;
+SENTENCIA::=
+    SALIDA
+    SALIDA
+    SALIDA
+    SALIDA
+    SALIDA
+    SALIDA
+    SALIDA
+    ENTRADA
+    
+;
+C_DOWHILE::=
+       Llave_c Estructuras_iteracion Parentesis_a Identificador Diferente Numero  Parentesis_c P_coma
+;
+
+A_SWITCH::=
+    Estructuras_control Parentesis_a Identificador Parentesis_c Llave_a
+;
+CASE::=
+    Estructuras_control Numero D_puntos
+    SALIDA
+    ENTRADA
+    SALIDA
+    ENTRADA
+    Identificador Parentesis_a Parentesis_c P_coma
+    Identificador P_coma|
+    Estructuras_control Numero D_puntos
+    SALIDA
+    ENTRADA
+    Identificador Parentesis_a Parentesis_c P_coma
+    Identificador P_coma
+    
+;
+D_SWITCH::=
+    Llave_c
+;
+VARIABLES ::=
+    T_datos Identificador Igual Numero P_coma |
+    T_datos Identificador P_coma |
+    T_datos Identificador Identificador P_coma |
+    T_datos Identificador Identificador Identificador P_coma
+;
+ENSAMBLADOR ::=
+    Asm Parentesis_a Comillas Identificador Identificador AX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador Identificador BX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador AX Identificador Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador Identificador CX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador Identificador DX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador CX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador Comillas Parentesis_c P_coma|
+    
+    Asm Parentesis_a Comillas Identificador D_puntos Comillas  Parentesis_c P_coma|
+    
+    Asm Parentesis_a Comillas Identificador DX AX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador CX CX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador AX AX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador AX CX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador CX AX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador BX AX Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador Identificador  Comillas Parentesis_c P_coma|
+    
+    Asm Parentesis_a Comillas Identificador CX Identificador Comillas Parentesis_c P_coma|
+
+    Asm Parentesis_a Comillas Identificador DX Identificador Comillas Parentesis_c P_coma
+;
+
+SALIDA ::=
+    Escribir Salida Comillas MENSAJE Comillas P_coma|
+
+    Escribir Salida Comillas MENSAJE D_puntos Comillas P_coma|
+
+    Escribir Salida Comillas MENSAJE D_puntos Comillas Salida Linea P_coma|
+
+    Escribir Salida Comillas MENSAJE Comillas Salida Linea P_coma|
+
+    Escribir Salida Comillas MENSAJE Comillas Salida Identificador P_coma|
+    Escribir Salida Comillas MENSAJE D_puntos Comillas Salida Identificador Salida Linea P_coma|
+    Escribir Salida Comillas MENSAJE D_puntos Comillas Salida Identificador Salida Linea Salida Linea P_coma|
+    Escribir Salida Comillas MENSAJE D_puntos Comillas Salida Identificador P_coma|
+    Escribir Salida Identificador Salida Linea P_coma|
+    Escribir Salida Identificador P_coma
+;
+
+ENTRADA ::= 
+    Leer Entrada Identificador P_coma
+;
+
+MENSAJE ::=
+    Identificador|
+    Numero Identificador|
+    Identificador Identificador|
+    Identificador Identificador Identificador|
+    Identificador Identificador Identificador Identificador|
+    Identificador Identificador Identificador Identificador Identificador|
+    Identificador Identificador Identificador Identificador Identificador Identificador|
+    Identificador Identificador Identificador Identificador Identificador Identificador Identificador
+;
+  
+
+END ::=
+    Identificador Numero P_coma
+    Llave_c
+;
