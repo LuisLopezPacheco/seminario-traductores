@@ -58,6 +58,15 @@ mientras |
 for |
 para {return new Symbol(sym.Estructuras_iteracion, yychar, yyline, yytext());}
 
+/* Instrucciones*/
+jmp |
+mov |
+add |
+sub {return new Symbol(sym.Instrucciones, yychar, yyline, yytext());}
+
+/* Tipo de dato*/
+db {return new Symbol(sym.Tipo_dato, yychar, yyline, yytext());}
+
 /* Funcion escribir */
 cout |
 escribir {return new Symbol(sym.Escribir, yychar, yyline, yytext());}
@@ -67,13 +76,16 @@ cin |
 leer {return new Symbol(sym.Leer, yychar, yyline, yytext());}
 
 /* Librerias */
-( "#include<iostream>" ) {return new Symbol(sym.Librerias, yychar, yyline, yytext());}
+( "org 100h" ) {return new Symbol(sym.Librerias, yychar, yyline, yytext());}
 
 /* Operador Punto */
 ( "." ) {return new Symbol(sym.Punto, yychar, yyline, yytext());}
 
 /* Operador Salida*/
 ( "<<" ) {return new Symbol(sym.Salida, yychar, yyline, yytext());}
+
+/* Coma */
+( "," ) {return new Symbol(sym.Coma, yychar, yyline, yytext());}
 
 /* Operador Entrada */
 ( ">>" ) {return new Symbol(sym.Entrada, yychar, yyline, yytext());}

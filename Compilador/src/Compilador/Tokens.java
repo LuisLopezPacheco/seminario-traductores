@@ -47,5 +47,7 @@ public enum Tokens {
     DX,
     BX,
     Coma,
+    Instrucciones,
+    Tipo_dato,
     ERROR
 }

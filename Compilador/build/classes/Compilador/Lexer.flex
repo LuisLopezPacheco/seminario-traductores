@@ -56,6 +56,23 @@ mientras |
 for |
 para {lexeme=yytext(); return Estructuras_iteracion;}
 
+/* Instrucciones*/
+jmp |
+mov |
+add |
+sub {lexeme=yytext(); return Instrucciones;}
+
+/* Tipo de dato*/
+db {lexeme=yytext(); return Tipo_dato;}
+
+/* Estructuras de iteracion */
+do |
+hacer |
+while |
+mientras |
+for |
+para {lexeme=yytext(); return Estructuras_iteracion;}
+
 /* Funcion escribir */
 cout |
 escribir {lexeme=yytext(); return Escribir;}
@@ -69,6 +86,9 @@ leer {lexeme=yytext(); return Leer;}
 
 /* Dos puntos */
 ( ":" ) {lexeme=yytext(); return D_puntos;}
+
+/* Coma */
+( "," ) {lexeme=yytext(); return Coma;}
 
 /* Operador Igual */
 ( ":=" | "=" ) {lexeme=yytext(); return Igual;}
@@ -122,7 +142,7 @@ leer {lexeme=yytext(); return Leer;}
 ( ";" ) {lexeme=yytext(); return P_coma;}
 
 /* Libreria */
-( "#include<iostream>" ) {lexeme=yytext(); return Librerias;}   
+( "org 100h" ) {lexeme=yytext(); return Librerias;}   
 
 /*assambly*/
 ( "asm" ) {lexeme=yytext(); return Asm;}   

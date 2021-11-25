@@ -839,7 +839,7 @@ public class Compiler extends javax.swing.JFrame {
         txtC.setText(info);
         
         String s=txtC.getText();
-        String replaceString=s.replaceAll("inicio", "main");
+        String replaceString=s.replaceAll("inicio", "inicio");
         txtC.setText(replaceString);
         
         String s2=txtC.getText();
@@ -882,7 +882,7 @@ public class Compiler extends javax.swing.JFrame {
             File guarda=file.getSelectedFile();
         if(guarda != null)
         {
-        try(FileWriter save = new FileWriter (guarda + ".cpp")){
+        try(FileWriter save = new FileWriter (guarda + ".asm")){
             save.write(txtC.getText());
             PathArchivo = guarda.getAbsolutePath();
             NameArchivo = guarda.getName();
@@ -913,8 +913,8 @@ public class Compiler extends javax.swing.JFrame {
         ost.println("@echo off");
         ost.println("title Compiler");
         ost.println("CD " + PathArchivo);
-        ost.println("g++" + " " + "-c" + " " + NameArchivo + ".cpp");
-        ost.println("g++" + " " + "-o" + " " + NameArchivo + ".exe" + " " + NameArchivo + ".cpp");
+        ost.println("g++" + " " + "-c" + " " + NameArchivo + ".asm");
+        ost.println("g++" + " " + "-o" + " " + NameArchivo + ".exe" + " " + NameArchivo + ".asm");
         ost.println("CLS");
         ost.println("@exit");
         ost.println("pause");

@@ -21,82 +21,44 @@ terminal Linea, T_datos, Int, Igual, Suma, Resta, Multiplicacion,
     Print, P_coma, Identificador, Numero, End, Escribir, Leer,
     Estructuras_control, Estructuras_iteracion, Mod, Corchete_a,
     Corchete_c, Punto, Entrada, Salida, Librerias, Comillas,
-    D_puntos, Asm, AX, CX, BX, DX, Diferente,
+    D_puntos, Asm, AX, CX, BX, DX, Diferente,Instrucciones,Coma,Tipo_dato,
     ERROR;
-non terminal INICIO, LIBRERIA, GLOBALES, VARIABLES, SALIDA, ENTRADA, MENSAJE, ENSAMBLADOR, CONTROL, OPERACION,
+non terminal INICIO, LIBRERIA, GLOBALES, VARIABLES, SALIDA, ENTRADA, MENSAJE, ENSAMBLADOR, CONTROL, OPERACION,INSTRUCCION,T_DATO,
                MAIN, DECREMENTAR, A_FUNCION, FUNCION, C_FUNCION, A_DOWHILE, C_DOWHILE, SENTENCIA, A_SWITCH, D_SWITCH ,CASE, END;
 
 start with INICIO;
 
 INICIO ::=
     LIBRERIA
-    GLOBALES
-
-    A_FUNCION
-    FUNCION
-    C_FUNCION
-
-    A_FUNCION
-    FUNCION
-    C_FUNCION
-
-    A_FUNCION
-    FUNCION
-    C_FUNCION
-
-    A_FUNCION
-    FUNCION
-    C_FUNCION
-
-    A_FUNCION
-    FUNCION
-    C_FUNCION
-
-    A_FUNCION
-    FUNCION
-    C_FUNCION
-
-    MAIN
-    A_DOWHILE
-        SENTENCIA
-        A_SWITCH
-        CASE
-        CASE
-        CASE
-        CASE
-        CASE
-        CASE
-        D_SWITCH
-    C_DOWHILE
     
-    END |
-     
-        A_SWITCH
-        CASE
-        CASE
-        CASE
-        CASE
-        CASE
-        CASE
-        D_SWITCH
+    INSTRUCCION
+    T_DATO
+    A_FUNCION
+    FUNCION
+    
+
+    
+   
 ;
 
 LIBRERIA ::=
     Librerias
-    Identificador Identificador Identificador P_coma
+    
 ;
 
+INSTRUCCION::=
+    Instrucciones Identificador
+;
 A_FUNCION::=
-    T_datos Identificador Parentesis_a Parentesis_c Llave_a|
-    T_datos Identificador Parentesis_a T_datos Identificador T_datos Identificador  Parentesis_c Llave_a
+   Identificador P_coma
 
 ;
 
 FUNCION::=
+   ENSAMBLADOR
     ENSAMBLADOR
     ENSAMBLADOR
-    ENSAMBLADOR
-    SALIDA|
+    END|
 
     DECREMENTAR
     ENSAMBLADOR
@@ -106,7 +68,7 @@ FUNCION::=
     ENSAMBLADOR
     ENSAMBLADOR
     ENSAMBLADOR
-    SALIDA|
+    END|
     
     ENSAMBLADOR
     ENSAMBLADOR
@@ -133,22 +95,20 @@ FUNCION::=
     
     ENSAMBLADOR
     ENSAMBLADOR
-    SALIDA|
+    END|
     
     ENSAMBLADOR
     ENSAMBLADOR
     ENSAMBLADOR
     ENSAMBLADOR
     ENSAMBLADOR
-    SALIDA
-    
+    END
     
 ;
 
 C_FUNCION::=
-    Llave_c | 
-    Identificador Numero P_coma Llave_c|
-    Identificador Identificador P_coma Llave_c
+   Instrucciones AX Coma BX|
+   Instrucciones CX Coma DX
 ;
 
 DECREMENTAR::=
@@ -215,39 +175,10 @@ VARIABLES ::=
     T_datos Identificador Identificador Identificador P_coma
 ;
 ENSAMBLADOR ::=
-    Asm Parentesis_a Comillas Identificador Identificador AX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador Identificador BX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador AX Identificador Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador Identificador CX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador Identificador DX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador CX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador Comillas Parentesis_c P_coma|
-    
-    Asm Parentesis_a Comillas Identificador D_puntos Comillas  Parentesis_c P_coma|
-    
-    Asm Parentesis_a Comillas Identificador DX AX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador CX CX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador AX AX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador AX CX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador CX AX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador BX AX Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador Identificador  Comillas Parentesis_c P_coma|
-    
-    Asm Parentesis_a Comillas Identificador CX Identificador Comillas Parentesis_c P_coma|
-
-    Asm Parentesis_a Comillas Identificador DX Identificador Comillas Parentesis_c P_coma
+   Instrucciones AX Coma Identificador|
+   Instrucciones BX Coma Identificador|
+   Instrucciones CX Coma Identificador|
+   Instrucciones DX Coma Identificador
 ;
 
 SALIDA ::=
@@ -284,6 +215,10 @@ MENSAJE ::=
   
 
 END ::=
-    Identificador Numero P_coma
-    Llave_c
+    Identificador 
+;
+
+T_DATO::=
+    
+    Identificador Tipo_dato Identificador
 ;
