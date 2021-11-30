@@ -10,4 +10,15 @@ Algo muy interesante del desarrollo de esta actividad fue al momento de estar mo
 <a href="http://www.java2s.com/Code/Jar/j/Downloadjavacup11jar.htm"><p>Link de descarga</p>
  
  <h4> Vista principal </h4>
+ <p> La siguiente imagen muestra la interfaz del proyecto el cual tiene en la parte de arriba tiene dos opciones uno para compilar y otro para realizar los analisis correspondientes .</p>
 <img class="imagenDerecha" src="/img/Captura.PNG"  width="720" height="600">
+  <h4> Vista analisis sintactico y semantico </h4>
+ <p> La siguiente imagen muestra la interfaz de nuestro analisis sintactico y semantico en el cual no tenemos ningun error al compilador.</p>
+<img class="imagenDerecha" src="/img/analisissin.PNG "  width="720" height="600">
+  <h4> Vista analisis lexico</h4>
+ <p> La siguiente imagen muestra la parte del analisis lexico mostrando las partes esencial de nuestro compilador ya que nos menciona cual es cada parte de lo que introduciomos .</p>
+<img class="imagenDerecha" src="/img/analisisle.PNG"  width="720" height="600">
+
+  <h4> Vista compilador</h4>
+ <p> La siguiente imagen muestra la parte del analisis lexico mostrando las partes esencial de nuestro compilador ya que nos menciona cual es cada parte de lo que introduciomos .</p>
+<img class="imagenDerecha" src="/img/Captura2.PNG "  width="720" height="600">
