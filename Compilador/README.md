@@ -20,5 +20,5 @@ Algo muy interesante del desarrollo de esta actividad fue al momento de estar mo
 <img class="imagenDerecha" src="/img/analisisle.PNG"  width="720" height="600">
 
   <h4> Vista compilador</h4>
- <p> La siguiente imagen muestra la parte del analisis lexico mostrando las partes esencial de nuestro compilador ya que nos menciona cual es cada parte de lo que introduciomos .</p>
+ <p> La siguiente imagen muestra la parte de como se muestra la ejecucion al momento de seleccionar la parte de compilar el cual nos permite guardar nuesttro archivo asm y poder compilarlo en emu 8086 .</p>
 <img class="imagenDerecha" src="/img/Captura2.PNG "  width="720" height="600">
