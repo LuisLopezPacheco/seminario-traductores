@@ -12,6 +12,8 @@ Algo muy interesante del desarrollo de esta actividad fue al momento de estar mo
 <h4> JCUp</h4>
 <a href="http://www.java2s.com/Code/Jar/j/Downloadjavacup11jar.htm"><p>Link de descarga</p>
  
+ <h4> Ultimos pasos de instalacion</h4>
+ 
  <p> Ya teniendo estos aditamentos dentro de Java netbeans e importar el proyecto solo se compilara y se cambiaran unas ligas que se encuentran en el main para que reconozca donde estan tus archivos</p>
  
 
