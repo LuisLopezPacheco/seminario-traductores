@@ -3,11 +3,18 @@ Para realizar este proyecto de compilador lo que realice fue mi codigo en java e
 <br>
 Algo muy interesante del desarrollo de esta actividad fue al momento de estar modificando dichos archivos ya que son los que te permiten la declaracion de dichas estructurar y de como se pueden leer ya que al terminar el analisis semantico en el cual evitamos ya cualquier tipo de errores con lo que logramos con la parte del compilador es desde que lea un archivo asm correctamente hasta compilarlo 
 
+<h4> Netbeans</h4>
+<a href="https://netbeans.apache.org/download/index.html"><p>Link de descarga</p>
+
 <h4> JFLEX</h4>
 <a href="https://www.jflex.de/download.html"><p>Link de descarga</p>
  
 <h4> JCUp</h4>
 <a href="http://www.java2s.com/Code/Jar/j/Downloadjavacup11jar.htm"><p>Link de descarga</p>
+ 
+ <p> Ya teniendo estos aditamentos dentro de Java netbeans e importar el proyecto solo se compilara y se cambiaran unas ligas que se encuentran en el main para que reconozca donde estan tus archivos</p>
+ 
+
  
  <h4> Vista principal </h4>
  <p> La siguiente imagen muestra la interfaz del proyecto el cual tiene en la parte de arriba tiene dos opciones uno para compilar y otro para realizar los analisis correspondientes .</p>
