@@ -32,5 +32,5 @@ Algo muy interesante del desarrollo de esta actividad fue al momento de estar mo
  <p> La siguiente imagen muestra la parte de como se muestra la ejecucion al momento de seleccionar la parte de compilar el cual nos permite guardar nuesttro archivo asm y poder compilarlo en emu 8086 .</p>
 <img class="imagenDerecha" src="/img/Captura2.PNG "  width="720" height="600">
  <h4>video muestra</h4>
- <a href="https://drive.google.com/drive/folders/1Nhc3Fk3L35svftah12h6VY34BygRVfVJ?usp=sharing"><p>Link video/p>
+ <a href="https://drive.google.com/drive/folders/1Nhc3Fk3L35svftah12h6VY34BygRVfVJ?usp=sharing"><p>Link de video</p>
  
